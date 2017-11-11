@@ -18,7 +18,8 @@ public class HotelReservationSystem {
         // TODO code application logic here
         System.out.println("This is system.");
         Room room1 = new Room();
-        int roomNum = room1.returnRoomNo(1000);
+        // before are int roomNum = room1.returnRoomNo(1000); to 
+        int roomNum = room1.returnRoomNo(2000);
         System.out.println(roomNum);
     }
     
